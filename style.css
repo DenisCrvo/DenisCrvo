@@ -298,6 +298,7 @@ h1, h2, h3, h4, h5 { font-family: var(--ff-display); font-weight: 700; }
   border: 1px dashed rgba(0, 229, 255, .2);
   animation: spin 12s linear infinite reverse;
 }
+
 .hero-orb-dot {
   position: absolute;
   top: -6px; left: 50%;
@@ -355,6 +356,9 @@ section { padding: 6rem 0; position: relative; }
 
 .btn-li { background: #0A66C2; color: #fff; }
 .btn-li:hover { box-shadow: 0 8px 24px rgba(10, 102, 194, .4); color: #fff; }
+
+.btn-gh { background: #24292e; color: #fff; }
+.btn-gh:hover { box-shadow: 0 8px 24px rgba(255, 255, 255, .15); color: #fff; }
 
 /* ============================================================
    SOBRE MIM
@@ -450,6 +454,7 @@ section { padding: 6rem 0; position: relative; }
 .tc-docker    { color: #2496ed; }
 .tc-bootstrap { color: #7952b3; }
 .tc-js        { color: #f7df1e; }
+.tc-github    { color: #ffffff; }
 .tc-linux     { color: #e95420; }
 .tc-windows   { color: #00a4ef; }
 .tc-qlik      { color: #009845; font-size: 2.2rem; }
